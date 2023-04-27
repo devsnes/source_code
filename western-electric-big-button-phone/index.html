@@ -1,0 +1,315 @@
+<h1>Western Electric Big Button Phone</h1>
+<p>The Western Electric Big Button phone was introduced around 1974. It was made available in two color schemes, one
+    orange/yellow and another blue/green. This pen imitates its style using a modern font (Work Sans) and some trickery
+    with text shadows and strokes.</p>
+<section>
+    <div class="numbers numbers--warm">
+        <div class="number">
+            <div class="number__inner number__inner--1">
+                1
+            </div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--2">2</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--3">3</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--4">4</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--5">5</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--6">6</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--7">7</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--8">8</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--9">9</div>
+        </div>
+        <div class="number">
+            <div class="number__inner">
+                <div class="number__inner__asterisk">
+                    *
+                </div>
+            </div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--0">0</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--pound">#</div>
+        </div>
+    </div>
+
+    <div class="numbers numbers--cool">
+        <div class="number">
+            <div class="number__inner number__inner--1">
+                1
+            </div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--2">2</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--3">3</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--4">4</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--5">5</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--6">6</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--7">7</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--8">8</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--9">9</div>
+        </div>
+        <div class="number">
+            <div class="number__inner">
+                <div class="number__inner__asterisk">
+                    *
+                </div>
+            </div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--0">0</div>
+        </div>
+        <div class="number">
+            <div class="number__inner number__inner--pound">#</div>
+        </div>
+    </div>
+</section>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background: rgba(182, 115, 0, 0.05);
+        color: #222;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding: 0 1rem;
+        font-family: "Work Sans", sans-serif;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+        max-width: 60rem;
+        margin-bottom: 1rem;
+    }
+
+    @media only screen and (min-width: 600px) {
+        section {
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 60rem;
+        }
+    }
+
+    button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: 0;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    .numbers {
+        display: grid;
+        grid-template-rows: repeat(4, 6rem);
+        grid-template-columns: repeat(3, 6rem);
+        grid-gap: 0.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .numbers--warm .number {
+        box-shadow: 0 0 0.2rem rgba(122, 35, 13, 0.2) inset;
+    }
+
+    .numbers--warm .number:nth-of-type(1),
+    .numbers--warm .number:nth-of-type(2),
+    .numbers--warm .number:nth-of-type(4) {
+        text-shadow: 0px 0 #b67300, 1px 0 #b67300, 2px 0 #b67300, 3px 0 #b67300, 4px 0 #b67300, 5px 0 #b67300, 6px 0 #b67300, 7px 0 #b67300, 8px 0 #b67300, 9px 0 #b67300, 10px 0 #b67300, 11px 0 #b67300, 12px 0 #b67300, 13px 0 #b67300, 14px 0 #b67300, 15px 0 #b67300, 16px 0 #b67300, 17px 0 #b67300, 18px 0 #b67300, 19px 0 #b67300, 20px 0 #b67300, 21px 0 #b67300, 22px 0 #b67300, 23px 0 #b67300, 24px 0 #b67300, 25px 0 #b67300, 26px 0 #b67300, 27px 0 #b67300, 28px 0 #b67300, 29px 0 #b67300, 30px 0 #b67300, 31px 0 #b67300, 32px 0 #b67300, 33px 0 #b67300, 34px 0 #b67300, 35px 0 #b67300, 36px 0 #b67300, 37px 0 #b67300, 38px 0 #b67300, 39px 0 #b67300, 40px 0 #b67300, 41px 0 #b67300, 42px 0 #b67300, 43px 0 #b67300, 44px 0 #b67300, 45px 0 #b67300, 46px 0 #b67300, 47px 0 #b67300, 48px 0 #b67300, 49px 0 #b67300, 50px 0 #b67300, 51px 0 #b67300, 52px 0 #b67300, 53px 0 #b67300, 54px 0 #b67300, 55px 0 #b67300, 56px 0 #b67300, 57px 0 #b67300, 58px 0 #b67300, 59px 0 #b67300, 60px 0 #b67300, 61px 0 #b67300, 62px 0 #b67300, 63px 0 #b67300, 64px 0 #b67300, 65px 0 #b67300, 66px 0 #b67300, 67px 0 #b67300, 68px 0 #b67300, 69px 0 #b67300, 70px 0 #b67300, 71px 0 #b67300, 72px 0 #b67300, 73px 0 #b67300, 74px 0 #b67300, 75px 0 #b67300;
+        text-stroke-color: #b67300;
+        -webkit-text-stroke-color: #b67300;
+        -moz-text-stroke-color: #b67300;
+    }
+
+    .numbers--warm .number:nth-of-type(3),
+    .numbers--warm .number:nth-of-type(5),
+    .numbers--warm .number:nth-of-type(7) {
+        text-shadow: 0px 0 #bb5504, 1px 0 #bb5504, 2px 0 #bb5504, 3px 0 #bb5504, 4px 0 #bb5504, 5px 0 #bb5504, 6px 0 #bb5504, 7px 0 #bb5504, 8px 0 #bb5504, 9px 0 #bb5504, 10px 0 #bb5504, 11px 0 #bb5504, 12px 0 #bb5504, 13px 0 #bb5504, 14px 0 #bb5504, 15px 0 #bb5504, 16px 0 #bb5504, 17px 0 #bb5504, 18px 0 #bb5504, 19px 0 #bb5504, 20px 0 #bb5504, 21px 0 #bb5504, 22px 0 #bb5504, 23px 0 #bb5504, 24px 0 #bb5504, 25px 0 #bb5504, 26px 0 #bb5504, 27px 0 #bb5504, 28px 0 #bb5504, 29px 0 #bb5504, 30px 0 #bb5504, 31px 0 #bb5504, 32px 0 #bb5504, 33px 0 #bb5504, 34px 0 #bb5504, 35px 0 #bb5504, 36px 0 #bb5504, 37px 0 #bb5504, 38px 0 #bb5504, 39px 0 #bb5504, 40px 0 #bb5504, 41px 0 #bb5504, 42px 0 #bb5504, 43px 0 #bb5504, 44px 0 #bb5504, 45px 0 #bb5504, 46px 0 #bb5504, 47px 0 #bb5504, 48px 0 #bb5504, 49px 0 #bb5504, 50px 0 #bb5504, 51px 0 #bb5504, 52px 0 #bb5504, 53px 0 #bb5504, 54px 0 #bb5504, 55px 0 #bb5504, 56px 0 #bb5504, 57px 0 #bb5504, 58px 0 #bb5504, 59px 0 #bb5504, 60px 0 #bb5504, 61px 0 #bb5504, 62px 0 #bb5504, 63px 0 #bb5504, 64px 0 #bb5504, 65px 0 #bb5504, 66px 0 #bb5504, 67px 0 #bb5504, 68px 0 #bb5504, 69px 0 #bb5504, 70px 0 #bb5504, 71px 0 #bb5504, 72px 0 #bb5504, 73px 0 #bb5504, 74px 0 #bb5504, 75px 0 #bb5504;
+        text-stroke-color: #bb5504;
+        -webkit-text-stroke-color: #bb5504;
+        -moz-text-stroke-color: #bb5504;
+    }
+
+    .numbers--warm .number:nth-of-type(6),
+    .numbers--warm .number:nth-of-type(8),
+    .numbers--warm .number:nth-of-type(10) {
+        text-shadow: 0px 0 #a53a11, 1px 0 #a53a11, 2px 0 #a53a11, 3px 0 #a53a11, 4px 0 #a53a11, 5px 0 #a53a11, 6px 0 #a53a11, 7px 0 #a53a11, 8px 0 #a53a11, 9px 0 #a53a11, 10px 0 #a53a11, 11px 0 #a53a11, 12px 0 #a53a11, 13px 0 #a53a11, 14px 0 #a53a11, 15px 0 #a53a11, 16px 0 #a53a11, 17px 0 #a53a11, 18px 0 #a53a11, 19px 0 #a53a11, 20px 0 #a53a11, 21px 0 #a53a11, 22px 0 #a53a11, 23px 0 #a53a11, 24px 0 #a53a11, 25px 0 #a53a11, 26px 0 #a53a11, 27px 0 #a53a11, 28px 0 #a53a11, 29px 0 #a53a11, 30px 0 #a53a11, 31px 0 #a53a11, 32px 0 #a53a11, 33px 0 #a53a11, 34px 0 #a53a11, 35px 0 #a53a11, 36px 0 #a53a11, 37px 0 #a53a11, 38px 0 #a53a11, 39px 0 #a53a11, 40px 0 #a53a11, 41px 0 #a53a11, 42px 0 #a53a11, 43px 0 #a53a11, 44px 0 #a53a11, 45px 0 #a53a11, 46px 0 #a53a11, 47px 0 #a53a11, 48px 0 #a53a11, 49px 0 #a53a11, 50px 0 #a53a11, 51px 0 #a53a11, 52px 0 #a53a11, 53px 0 #a53a11, 54px 0 #a53a11, 55px 0 #a53a11, 56px 0 #a53a11, 57px 0 #a53a11, 58px 0 #a53a11, 59px 0 #a53a11, 60px 0 #a53a11, 61px 0 #a53a11, 62px 0 #a53a11, 63px 0 #a53a11, 64px 0 #a53a11, 65px 0 #a53a11, 66px 0 #a53a11, 67px 0 #a53a11, 68px 0 #a53a11, 69px 0 #a53a11, 70px 0 #a53a11, 71px 0 #a53a11, 72px 0 #a53a11, 73px 0 #a53a11, 74px 0 #a53a11, 75px 0 #a53a11;
+        text-stroke-color: #a53a11;
+        -webkit-text-stroke-color: #a53a11;
+        -moz-text-stroke-color: #a53a11;
+    }
+
+    .numbers--warm .number:nth-of-type(9),
+    .numbers--warm .number:nth-of-type(11),
+    .numbers--warm .number:nth-of-type(12) {
+        text-shadow: 0px 0 #7a230d, 1px 0 #7a230d, 2px 0 #7a230d, 3px 0 #7a230d, 4px 0 #7a230d, 5px 0 #7a230d, 6px 0 #7a230d, 7px 0 #7a230d, 8px 0 #7a230d, 9px 0 #7a230d, 10px 0 #7a230d, 11px 0 #7a230d, 12px 0 #7a230d, 13px 0 #7a230d, 14px 0 #7a230d, 15px 0 #7a230d, 16px 0 #7a230d, 17px 0 #7a230d, 18px 0 #7a230d, 19px 0 #7a230d, 20px 0 #7a230d, 21px 0 #7a230d, 22px 0 #7a230d, 23px 0 #7a230d, 24px 0 #7a230d, 25px 0 #7a230d, 26px 0 #7a230d, 27px 0 #7a230d, 28px 0 #7a230d, 29px 0 #7a230d, 30px 0 #7a230d, 31px 0 #7a230d, 32px 0 #7a230d, 33px 0 #7a230d, 34px 0 #7a230d, 35px 0 #7a230d, 36px 0 #7a230d, 37px 0 #7a230d, 38px 0 #7a230d, 39px 0 #7a230d, 40px 0 #7a230d, 41px 0 #7a230d, 42px 0 #7a230d, 43px 0 #7a230d, 44px 0 #7a230d, 45px 0 #7a230d, 46px 0 #7a230d, 47px 0 #7a230d, 48px 0 #7a230d, 49px 0 #7a230d, 50px 0 #7a230d, 51px 0 #7a230d, 52px 0 #7a230d, 53px 0 #7a230d, 54px 0 #7a230d, 55px 0 #7a230d, 56px 0 #7a230d, 57px 0 #7a230d, 58px 0 #7a230d, 59px 0 #7a230d, 60px 0 #7a230d, 61px 0 #7a230d, 62px 0 #7a230d, 63px 0 #7a230d, 64px 0 #7a230d, 65px 0 #7a230d, 66px 0 #7a230d, 67px 0 #7a230d, 68px 0 #7a230d, 69px 0 #7a230d, 70px 0 #7a230d, 71px 0 #7a230d, 72px 0 #7a230d, 73px 0 #7a230d, 74px 0 #7a230d, 75px 0 #7a230d;
+        text-stroke-color: #7a230d;
+        -webkit-text-stroke-color: #7a230d;
+        -moz-text-stroke-color: #7a230d;
+    }
+
+    .numbers--cool .number {
+        box-shadow: 0 0 0.2rem rgba(8, 50, 134, 0.2) inset;
+    }
+
+    .numbers--cool .number:nth-of-type(1),
+    .numbers--cool .number:nth-of-type(2),
+    .numbers--cool .number:nth-of-type(4) {
+        text-shadow: 0px 0 #219162, 1px 0 #219162, 2px 0 #219162, 3px 0 #219162, 4px 0 #219162, 5px 0 #219162, 6px 0 #219162, 7px 0 #219162, 8px 0 #219162, 9px 0 #219162, 10px 0 #219162, 11px 0 #219162, 12px 0 #219162, 13px 0 #219162, 14px 0 #219162, 15px 0 #219162, 16px 0 #219162, 17px 0 #219162, 18px 0 #219162, 19px 0 #219162, 20px 0 #219162, 21px 0 #219162, 22px 0 #219162, 23px 0 #219162, 24px 0 #219162, 25px 0 #219162, 26px 0 #219162, 27px 0 #219162, 28px 0 #219162, 29px 0 #219162, 30px 0 #219162, 31px 0 #219162, 32px 0 #219162, 33px 0 #219162, 34px 0 #219162, 35px 0 #219162, 36px 0 #219162, 37px 0 #219162, 38px 0 #219162, 39px 0 #219162, 40px 0 #219162, 41px 0 #219162, 42px 0 #219162, 43px 0 #219162, 44px 0 #219162, 45px 0 #219162, 46px 0 #219162, 47px 0 #219162, 48px 0 #219162, 49px 0 #219162, 50px 0 #219162, 51px 0 #219162, 52px 0 #219162, 53px 0 #219162, 54px 0 #219162, 55px 0 #219162, 56px 0 #219162, 57px 0 #219162, 58px 0 #219162, 59px 0 #219162, 60px 0 #219162, 61px 0 #219162, 62px 0 #219162, 63px 0 #219162, 64px 0 #219162, 65px 0 #219162, 66px 0 #219162, 67px 0 #219162, 68px 0 #219162, 69px 0 #219162, 70px 0 #219162, 71px 0 #219162, 72px 0 #219162, 73px 0 #219162, 74px 0 #219162, 75px 0 #219162;
+        text-stroke-color: #219162;
+        -webkit-text-stroke-color: #219162;
+        -moz-text-stroke-color: #219162;
+    }
+
+    .numbers--cool .number:nth-of-type(3),
+    .numbers--cool .number:nth-of-type(5),
+    .numbers--cool .number:nth-of-type(7) {
+        text-shadow: 0px 0 #06858E, 1px 0 #06858E, 2px 0 #06858E, 3px 0 #06858E, 4px 0 #06858E, 5px 0 #06858E, 6px 0 #06858E, 7px 0 #06858E, 8px 0 #06858E, 9px 0 #06858E, 10px 0 #06858E, 11px 0 #06858E, 12px 0 #06858E, 13px 0 #06858E, 14px 0 #06858E, 15px 0 #06858E, 16px 0 #06858E, 17px 0 #06858E, 18px 0 #06858E, 19px 0 #06858E, 20px 0 #06858E, 21px 0 #06858E, 22px 0 #06858E, 23px 0 #06858E, 24px 0 #06858E, 25px 0 #06858E, 26px 0 #06858E, 27px 0 #06858E, 28px 0 #06858E, 29px 0 #06858E, 30px 0 #06858E, 31px 0 #06858E, 32px 0 #06858E, 33px 0 #06858E, 34px 0 #06858E, 35px 0 #06858E, 36px 0 #06858E, 37px 0 #06858E, 38px 0 #06858E, 39px 0 #06858E, 40px 0 #06858E, 41px 0 #06858E, 42px 0 #06858E, 43px 0 #06858E, 44px 0 #06858E, 45px 0 #06858E, 46px 0 #06858E, 47px 0 #06858E, 48px 0 #06858E, 49px 0 #06858E, 50px 0 #06858E, 51px 0 #06858E, 52px 0 #06858E, 53px 0 #06858E, 54px 0 #06858E, 55px 0 #06858E, 56px 0 #06858E, 57px 0 #06858E, 58px 0 #06858E, 59px 0 #06858E, 60px 0 #06858E, 61px 0 #06858E, 62px 0 #06858E, 63px 0 #06858E, 64px 0 #06858E, 65px 0 #06858E, 66px 0 #06858E, 67px 0 #06858E, 68px 0 #06858E, 69px 0 #06858E, 70px 0 #06858E, 71px 0 #06858E, 72px 0 #06858E, 73px 0 #06858E, 74px 0 #06858E, 75px 0 #06858E;
+        text-stroke-color: #06858E;
+        -webkit-text-stroke-color: #06858E;
+        -moz-text-stroke-color: #06858E;
+    }
+
+    .numbers--cool .number:nth-of-type(6),
+    .numbers--cool .number:nth-of-type(8),
+    .numbers--cool .number:nth-of-type(10) {
+        text-shadow: 0px 0 #0664AB, 1px 0 #0664AB, 2px 0 #0664AB, 3px 0 #0664AB, 4px 0 #0664AB, 5px 0 #0664AB, 6px 0 #0664AB, 7px 0 #0664AB, 8px 0 #0664AB, 9px 0 #0664AB, 10px 0 #0664AB, 11px 0 #0664AB, 12px 0 #0664AB, 13px 0 #0664AB, 14px 0 #0664AB, 15px 0 #0664AB, 16px 0 #0664AB, 17px 0 #0664AB, 18px 0 #0664AB, 19px 0 #0664AB, 20px 0 #0664AB, 21px 0 #0664AB, 22px 0 #0664AB, 23px 0 #0664AB, 24px 0 #0664AB, 25px 0 #0664AB, 26px 0 #0664AB, 27px 0 #0664AB, 28px 0 #0664AB, 29px 0 #0664AB, 30px 0 #0664AB, 31px 0 #0664AB, 32px 0 #0664AB, 33px 0 #0664AB, 34px 0 #0664AB, 35px 0 #0664AB, 36px 0 #0664AB, 37px 0 #0664AB, 38px 0 #0664AB, 39px 0 #0664AB, 40px 0 #0664AB, 41px 0 #0664AB, 42px 0 #0664AB, 43px 0 #0664AB, 44px 0 #0664AB, 45px 0 #0664AB, 46px 0 #0664AB, 47px 0 #0664AB, 48px 0 #0664AB, 49px 0 #0664AB, 50px 0 #0664AB, 51px 0 #0664AB, 52px 0 #0664AB, 53px 0 #0664AB, 54px 0 #0664AB, 55px 0 #0664AB, 56px 0 #0664AB, 57px 0 #0664AB, 58px 0 #0664AB, 59px 0 #0664AB, 60px 0 #0664AB, 61px 0 #0664AB, 62px 0 #0664AB, 63px 0 #0664AB, 64px 0 #0664AB, 65px 0 #0664AB, 66px 0 #0664AB, 67px 0 #0664AB, 68px 0 #0664AB, 69px 0 #0664AB, 70px 0 #0664AB, 71px 0 #0664AB, 72px 0 #0664AB, 73px 0 #0664AB, 74px 0 #0664AB, 75px 0 #0664AB;
+        text-stroke-color: #0664AB;
+        -webkit-text-stroke-color: #0664AB;
+        -moz-text-stroke-color: #0664AB;
+    }
+
+    .numbers--cool .number:nth-of-type(9),
+    .numbers--cool .number:nth-of-type(11),
+    .numbers--cool .number:nth-of-type(12) {
+        text-shadow: 0px 0 #083286, 1px 0 #083286, 2px 0 #083286, 3px 0 #083286, 4px 0 #083286, 5px 0 #083286, 6px 0 #083286, 7px 0 #083286, 8px 0 #083286, 9px 0 #083286, 10px 0 #083286, 11px 0 #083286, 12px 0 #083286, 13px 0 #083286, 14px 0 #083286, 15px 0 #083286, 16px 0 #083286, 17px 0 #083286, 18px 0 #083286, 19px 0 #083286, 20px 0 #083286, 21px 0 #083286, 22px 0 #083286, 23px 0 #083286, 24px 0 #083286, 25px 0 #083286, 26px 0 #083286, 27px 0 #083286, 28px 0 #083286, 29px 0 #083286, 30px 0 #083286, 31px 0 #083286, 32px 0 #083286, 33px 0 #083286, 34px 0 #083286, 35px 0 #083286, 36px 0 #083286, 37px 0 #083286, 38px 0 #083286, 39px 0 #083286, 40px 0 #083286, 41px 0 #083286, 42px 0 #083286, 43px 0 #083286, 44px 0 #083286, 45px 0 #083286, 46px 0 #083286, 47px 0 #083286, 48px 0 #083286, 49px 0 #083286, 50px 0 #083286, 51px 0 #083286, 52px 0 #083286, 53px 0 #083286, 54px 0 #083286, 55px 0 #083286, 56px 0 #083286, 57px 0 #083286, 58px 0 #083286, 59px 0 #083286, 60px 0 #083286, 61px 0 #083286, 62px 0 #083286, 63px 0 #083286, 64px 0 #083286, 65px 0 #083286, 66px 0 #083286, 67px 0 #083286, 68px 0 #083286, 69px 0 #083286, 70px 0 #083286, 71px 0 #083286, 72px 0 #083286, 73px 0 #083286, 74px 0 #083286, 75px 0 #083286;
+        text-stroke-color: #083286;
+        -webkit-text-stroke-color: #083286;
+        -moz-text-stroke-color: #083286;
+    }
+
+    .number {
+        background: white;
+        border-radius: 0.5rem;
+        color: white;
+        font-weight: 800;
+        display: flex;
+        padding: 0.5rem;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        paint-order: stroke fill;
+        text-stroke-width: 3px;
+        -webkit-text-stroke-width: 3px;
+        -moz-text-stroke-width: 3px;
+    }
+
+    .number__inner {
+        background: transparent;
+        border-top-right-radius: 0.6666666667rem;
+        border-bottom-right-radius: 0.6666666667rem;
+        box-shadow: 0.5px 0 0.5px rgba(0, 0, 0, 0.5);
+        flex-grow: 1;
+        width: 100%;
+        height: 100%;
+        font-size: 7.2rem;
+        line-height: 0.66;
+        overflow: hidden;
+    }
+
+    .number__inner--1 {
+        font-size: 7.47rem;
+        line-height: 0.6575;
+    }
+
+    .number__inner--2 {
+        font-size: 7.38rem;
+        line-height: 0.66;
+    }
+
+    .number__inner--3 {
+        font-size: 7.17rem;
+        line-height: 0.68;
+    }
+
+    .number__inner--4,
+    .number__inner--7 {
+        font-size: 7.38rem;
+        line-height: 0.66;
+    }
+
+    .number__inner--5 {
+        font-size: 7.35rem;
+        line-height: 0.655;
+    }
+
+    .number__inner--6,
+    .number__inner--8,
+    .number__inner--9 {
+        font-size: 7.2rem;
+        line-height: 0.67;
+    }
+
+    .number__inner--0 {
+        font-size: 7.32rem;
+        line-height: 0.66;
+    }
+
+    .number__inner--pound {
+        font-size: 7.44rem;
+        line-height: 0.6575;
+    }
+
+    .number__inner__asterisk {
+        font-size: 10.2rem;
+        position: relative;
+        top: 0.7rem;
+        left: -0.85rem;
+    }
+</style>
