@@ -1,0 +1,223 @@
+<body>
+    <div class="keyboard">
+        <ul class="functions">
+            <li class="esc">esc</li>
+            <li>F1</li>
+            <li>F2</li>
+            <li>F3</li>
+            <li>F4</li>
+            <li>F5</li>
+            <li>F6</li>
+            <li>F7</li>
+            <li>F8</li>
+            <li>F9</li>
+            <li>F10</li>
+            <li>F11</li>
+            <li>F12</li>
+            <li class="eject">eject</li>
+        </ul>
+        <ul>
+            <li>`</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>0</li>
+            <li>-</li>
+            <li>=</li>
+            <li class="delete">delete</li>
+        </ul>
+        <ul>
+            <li class="tab left">tab</li>
+            <li>Q</li>
+            <li>W</li>
+            <li>E</li>
+            <li>R</li>
+            <li>T</li>
+            <li>Y</li>
+            <li>U</li>
+            <li>I</li>
+            <li>O</li>
+            <li>P</li>
+            <li>[</li>
+            <li>]</li>
+            <li>\</li>
+        </ul>
+        <ul>
+            <li class="caps left">caps lock</li>
+            <li>A</li>
+            <li>S</li>
+            <li>D</li>
+            <li>F</li>
+            <li>G</li>
+            <li>H</li>
+            <li>J</li>
+            <li>K</li>
+            <li>L</li>
+            <li>:</li>
+            <li>'</li>
+            <li class="return">return</li>
+        </ul>
+        <ul>
+            <li class="shift left">shift</li>
+            <li>Z</li>
+            <li>X</li>
+            <li>C</li>
+            <li>V</li>
+            <li>B</li>
+            <li>N</li>
+            <li>M</li>
+            <li>,</li>
+            <li>.</li>
+            <li>/</li>
+            <li class="shift right">shift</li>
+        </ul>
+        <ul class="commands">
+            <li class="fn left">fn</li>
+            <li class="control">control</li>
+            <li class="option left">option</li>
+            <li class="command left">command</li>
+            <li class="space"></li>
+            <li class="command right">command</li>
+            <li class="option right">option</li>
+            <li class="arrow top"></li>
+            <li class="arrow"></li>
+            <li class="arrow bottom"></li>
+            <li class="arrow"></li>
+        </ul>
+    </div>
+</body>
+<style>
+    body {
+        background: #eee;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .keyboard {
+        background: #eeeeee;
+        background: -moz-linear-gradient(top, #eeeeee 0%, #d1d5d8 5%, #d1d5d8 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(5%, #d1d5d8), color-stop(100%, #d1d5d8));
+        background: -webkit-linear-gradient(top, #eeeeee 0%, #d1d5d8 5%, #d1d5d8 100%);
+        background: -o-linear-gradient(top, #eeeeee 0%, #d1d5d8 5%, #d1d5d8 100%);
+        background: -ms-linear-gradient(top, #eeeeee 0%, #d1d5d8 5%, #d1d5d8 100%);
+        background: linear-gradient(to bottom, #eeeeee 0%, #d1d5d8 5%, #d1d5d8 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeeeee", endColorstr="#d1d5d8", GradientType=0);
+        width: 632px;
+        height: 288px;
+        box-shadow: 1px 1px 1px #a9a9a9, 0 0 1px 1px #a9a9a9;
+        border-radius: 0 0 10px 10px;
+        margin: 50vh auto 0;
+        padding: 30px 10px 10px;
+        position: relative;
+        overflow: auto;
+        top: -144px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        clear: both;
+    }
+
+    ul.functions li {
+        width: 40px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 7px;
+    }
+
+    ul.commands li {
+        height: 44px;
+        line-height: 56px;
+    }
+
+    ul.commands li.arrow {
+        height: 22px;
+        margin: 0 2px;
+    }
+
+    ul.commands li.arrow.top {
+        margin: 0 44px 2px;
+    }
+
+    li {
+        float: left;
+        background: #ffffff;
+        background: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f0f0f0));
+        background: -webkit-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+        background: -o-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+        background: -ms-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+        background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#f0f0f0", GradientType=0);
+        box-shadow: inset 0 0 2px #fff;
+        border: 1px solid #8f8f8f;
+        border-radius: 5px;
+        width: 38px;
+        height: 38px;
+        overflow: hidden;
+        line-height: 32px;
+        font-size: 11px;
+        color: #a6a6a6;
+        margin: 3px 2px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    li:first-child {
+        margin-left: 0;
+    }
+
+    li:last-child {
+        margin-right: 0;
+    }
+
+    li.command {
+        width: 52px;
+    }
+
+    li.delete,
+    li.tab {
+        width: 66px;
+    }
+
+    li.caps,
+    li.return {
+        width: 73px;
+    }
+
+    li.shift {
+        width: 94px;
+    }
+
+    li.space {
+        width: 204px;
+    }
+
+    li.delete,
+    li.shift,
+    li.return,
+    li.option,
+    li.command,
+    li.control,
+    li.fn,
+    li.tab,
+    li.caps {
+        text-align: right;
+        line-height: 46px;
+        font-size: 9px;
+    }
+
+    li.left {
+        text-align: left;
+    }
+</style>
